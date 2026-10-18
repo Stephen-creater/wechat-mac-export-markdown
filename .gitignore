@@ -1,0 +1,22 @@
+# 隐私数据：密钥、导出结果、成品、压缩包、日志，一律不进仓库
+.wechat-local/
+keys.json
+export/
+deliver/
+*.zip
+*.log
+HANDOFF.md
+
+# 本机调试用的一次性脚本（写死了本机路径）
+tools/explore*.py
+tools/raw*.py
+tools/pick.py
+tools/types.py
+
+# 上游仓库的完整副本（直接看上游即可）
+reference-repo/
+
+# 环境和系统文件
+.venv/
+__pycache__/
+.DS_Store

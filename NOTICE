@@ -1,0 +1,8 @@
+本仓库采用 MIT 许可证（见 LICENSE）。
+
+scripts/ 目录下的 sqlcipher_probe.py、wechat_db.py、disk_inventory.py 原样取自
+DaneelOlivaw1/macos-wechat-export（MIT）：https://github.com/DaneelOlivaw1/macos-wechat-export
+该项目又基于 acmerfight 公开的 Gist（MIT）：https://gist.github.com/acmerfight/0a01249ef72970d07a2603dbb629e80f
+原作者保留各自原始内容的著作权。再分发时请保留本 NOTICE 与 LICENSE。
+
+tools/export_md.py 是本仓库新写的部分：把解密后的本地库整理成按会话分文件的 Markdown。
